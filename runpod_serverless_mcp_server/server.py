@@ -16,7 +16,7 @@ logger = logging.getLogger("runpod_mcp_server")
 
 # Environment variables and configuration
 RUNPOD_API_KEY = "xxx"
-RUNPOD_ENDPOINT_ID = os.environ.get("RUNPOD_ENDPOINT_ID", "yyy")  # Default endpoint ID
+RUNPOD_ENDPOINT_ID = os.environ.get("RUNPOD_ENDPOINT_ID", "p1abozuh79miw9")  # Default endpoint ID
 MAX_EXECUTION_TIME = int(os.environ.get("MAX_EXECUTION_TIME", "30"))  # Maximum execution time in seconds
 
 # Create an MCP server with proper metadata
